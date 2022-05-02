@@ -1,0 +1,25 @@
+-Entrare in cucina
+-Prendere ricettario
+-aprire ricettario sul tavolo
+-aprire dispensa
+//controllare disponibilità ingredienti lasagne nella dispensa (lasagne,ragù,besciamella, parmiggiano)//
+FINCHè non trovo tutti gli ingredienti cerco ingredienti
+IF non  ho tutti gli ingredienti
+    -uscire di casa
+    -andare al supermercato
+    -comprare ingredienti assenti
+    -tornare a casa
+-prendo la teglia
+-apro ogni confezione
+FINCHè la teglia non è piena
+    -fare uno strato di lasagne
+    -fare uno strato di ragù
+    -fare uno strato di besciamella
+    -fare uno strato di parmiggiano
+-accendere forno
+-impostare temperatura a 170°
+-IF temperatura raggiunge 170° inserire teglia
+    ELSE attendere
+-impostare timer a 40 minuti
+-apparecchiare tavola
+-FINCHè le lasagne non sono cotte: attendere cottura
